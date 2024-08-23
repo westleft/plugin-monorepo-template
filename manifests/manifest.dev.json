@@ -1,0 +1,37 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "ローカルテストプラグイン",
+    "en": "Local Test Plugin",
+    "zh": "本地測試外掛",
+    "es": "Plugin de Prueba Local"
+  },
+  "description": {
+    "ja": "これは開発段階で使用するローカルテストプラグインです。",
+    "en": "This is a local test plugin used during the development phase.",
+    "zh": "開發階段使用的測試外掛。",
+    "es": "Este es un plugin de prueba local utilizado durante la fase de desarrollo."
+  },
+  "icon": "logo.png",
+  "homepage_url": {
+    "ja": "https://example.com/ja/",
+    "en": "https://example.com/en/",
+    "zh": "https://example.com/zh/",
+    "es": "https://example.com/es/"
+  },
+  "desktop": {
+    "js": ["https://localhost:5100/js/customize.js"],
+    "css": []
+  },
+  "mobile": {
+    "js": ["https://localhost:5100/js/customize.js"],
+    "css": []
+  },
+  "config": {
+    "html": "index.html",
+    "js": ["https://localhost:5000/js/config.js"],
+    "css": []
+  }
+}
