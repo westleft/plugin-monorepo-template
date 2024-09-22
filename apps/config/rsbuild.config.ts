@@ -41,6 +41,6 @@ export default defineConfig({
     liveReload: false
   },
   server: {
-    port: 5000,
+    port: 5200,
   },
 });

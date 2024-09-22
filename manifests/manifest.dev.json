@@ -31,7 +31,7 @@
   },
   "config": {
     "html": "index.html",
-    "js": ["https://localhost:5000/js/config.js"],
+    "js": ["https://localhost:5200/js/config.js"],
     "css": []
   }
 }
